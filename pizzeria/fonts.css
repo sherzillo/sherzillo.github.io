@@ -1,0 +1,36 @@
+@font-face {
+    font-family: Lato;
+    src: url("fonts/Lato-Regular.ttf") format("truetype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: LatoB;
+    src: url("fonts/Lato-Black.ttf") format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url("fonts/Raleway-Regular.ttf") format("truetype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Mont;
+    src: url("fonts/Montserrat-Regular.ttf") format("truetype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: MontM;
+    src: url("fonts/Montserrat-Medium.ttf") format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: MontB;
+    src: url("fonts/Montserrat-Black.ttf") format("truetype");
+    font-weight: bold;
+}
+
