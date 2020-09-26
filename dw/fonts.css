@@ -1,0 +1,18 @@
+@font-face {
+    font-family: snEL;
+    src: url("fonts/SourceSansPro-ExtraLight.ttf") format("truetype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: snL;
+    src: url("fonts/SourceSansPro-Light.ttf") format("truetype");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: snR;
+    src: url("fonts/SourceSansPro-Regular.ttf") format("truetype");
+    font-weight: 400;
+}
+

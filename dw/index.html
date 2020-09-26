@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DW Watch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="all.min.css">
+</head>
+
+<body>
+<header class="w-bg">
+    <div class="container">
+        <nav>
+            <input type="checkbox" id="res-menu">
+            <label for="res-menu">
+                <i class="fa fa-bars" aria-hidden="true" id="sign-one"></i>
+                <i class="fa fa-times" aria-hidden="true" id="sign-two"></i>
+            </label>
+            <a href="index.html"><img src="img/logo.png" alt="" srcset=""></a>
+            <ul>
+                <li><a href="#">Men</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">Couple</a></li>
+                <li><a href="#">Accessories</a></li>
+                <li><a href="#">Journal</a></li>
+                <li><a href="#">Story</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="banner">
+        <div id="slider">
+            <input type="radio" name="slider" id="slide1" checked>
+            <input type="radio" name="slider" id="slide2">
+            <input type="radio" name="slider" id="slide3">
+            <input type="radio" name="slider" id="slide4">
+            <div id="slides">
+                <div id="overflow">
+                    <div class="inner">
+                        <div class="slide slide_1"></div>
+                        <div class="slide slide_2"></div>
+                        <div class="slide slide_3"></div>
+                        <div class="slide slide_4"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="bullets" class=bullets>
+            <label for="slide1"></label>
+            <label for="slide2"></label>
+            <label for="slide3"></label>
+            <label for="slide4"></label>
+        </div>
+    </div>
+
+    <div class="shop-banner">
+        <div class="shop-banner-content container">
+            <div class="shop w-bg">
+                <h2>Watches</h2>
+                <p>A slim timepiece sits on your wrist.</p>
+                <img src="img/watches_down.png" alt="">
+                <a href="#">Shop now</a>
+            </div>
+            <div class="shop a-bg">
+                <h2>Accessories</h2>
+                <p>A slim timepiece sits on your wrist.</p>
+                <img src="img/accessories.png" alt="" srcset="">
+                <a href="#">Shop now</a>
+            </div>
+        </div>
+    </div>
+
+</header>
+
+<section id="watch-price">
+    <div class="container">
+        <div class="watch-card-list">
+            <div class="watch-card">
+                <img src="img/db01.png" alt="">
+                <h3>Dapper Bristol</h3>
+                <h4>$ 299</h4>
+            </div>
+            <div class="watch-card">
+                <img src="img/db02.png" alt="">
+                <h3>Dapper Bristol</h3>
+                <h4>$ 299</h4>
+            </div>
+            <div class="watch-card">
+                <img src="img/db03.png" alt="">
+                <h3>Dapper Bristol</h3>
+                <h4>$ 229</h4>
+            </div>
+            <div class="watch-card">
+                <img src="img/db04.png" alt="">
+                <h3>Dapper Bristol</h3>
+                <h4>$ 229</h4>
+            </div>
+        </div>
+        <div class="watch-card-list">
+            <div class="watch-card">
+                <img src="img/db05.png" alt="">
+                <h3>Dapper Bristol</h3>
+                <h4>$ 195</h4>
+            </div>
+            <div class="watch-card">
+                <img src="img/db06.png" alt="">
+                <h3>Dapper Bristol</h3>
+                <h4>$ 195</h4>
+            </div>
+            <div class="watch-card">
+                <img src="img/db07.png" alt="">
+                <h3>Dapper Bristol</h3>
+                <h4>$ 299</h4>
+            </div>
+            <div class="watch-card">
+                <img src="img/db08.png" alt="">
+                <h3>Dapper Bristol</h3>
+                <h4>$ 299</h4>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="bg">
+    <div class="container">
+        <div class="testimonials">
+            <div class="t-card">
+                <img src="img/pic01.jpg" alt="" srcset="">
+                <h3>10000000 +</h3>
+                <p>" We have just reached an incredible milestone on favorite social media platform, Instagram. What
+                    seemed like a wild dream not too long ago is now officially a reality. "</p>
+            </div>
+            <div class="t-card">
+                <img src="img/pic02.jpg" alt="" srcset="">
+                <h3>Perfection</h3>
+                <p>" The employees at Daniel Wellington all strive for the same thing. Each day and night that goes
+                    by, our time is dedicated to evolving the brand. "</p>
+            </div>
+            <div class="t-card">
+                <img src="img/pic03.jpg" alt="" srcset="">
+                <h3>Christmas</h3>
+                <p>" The Daniel Wellington office in Uppsala, Sweden, is full of Christmas spirit. During December
+                    our Christmas 2013 film will be available here at danielwellington.com. "</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="mapping">
+    <div class="container">
+        <div class="watch-map">
+            <div id="map"></div>
+            <div class="map-content">
+                <form>
+                    <label for="cars">Choose Country:</label>
+                    <select name="cars" id="cars">
+                        <option id="map-text-style" value="US" placeholder="UNITES STATES">UNITES STATES</option>
+                        <option id="map-text-style" value="UK">UNITED KINGDOM</option>
+                        <option id="map-text-style" value="RU">RUSSIA</option>
+                        <option id="map-text-style" value="CH">CHINA</option>
+                    </select>
+                    <label for="city" placeholder="Enter your city or address">Enter city or address</label>
+                    <input type="text" id="city">
+                    <input type="submit" value="GO" class="map-submit">
+                    <label for="cars">Showing 617 stores</label>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="info">
+            <div class="info-content">
+                <h3>How can we help you</h3>
+                <ul>
+                    <li><a href="#">Login Sign up</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Find a store</a></li>
+                    <li><a href="#">Terms of use</a></li>
+                </ul>
+            </div>
+            <div class="info-content">
+                <h3>&nbsp;</h3>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Delivery</a></li>
+                    <li><a href="#">Our story</a></li>
+                    <li><a href="#">Privacy policy</a></li>
+                </ul>
+            </div>
+            <div class="info-content">
+                <h3>Follow us</h3>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Pinterest</a></li>
+                    <li><a href="#">Twitter</a></li>
+                </ul>
+            </div>
+            <div class="info-content">
+                <h3>Subscribe</h3>
+                <p>Get the news, <br/>great offers and campaigns to your email.</p>
+                <input type="text" placeholder = "Enter your email address">
+            </div>
+        </div>
+    </div>
+</footer>
+    
+<script>
+    // Initialize and add the map
+    function initMap() {
+        // The location of Uluru
+        var uluru = {
+            lat: -25.344,
+            lng: 131.036
+        };
+        // The map, centered at Uluru
+        var map = new google.maps.Map(
+            document.getElementById('map'), {
+                zoom: 4,
+                center: uluru
+            });
+        // The marker, positioned at Uluru
+        var marker = new google.maps.Marker({
+            position: uluru,
+            map: map
+        });
+    }
+</script>
+<script defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+</script>
+</body>
+
+</html>
